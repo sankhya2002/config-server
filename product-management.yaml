@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:pmsdb
+    driver-class-name: org.h2.Driver
+    username: sankhya
+    password: sankhya
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
+
+custom:
+  constant:
+    max-value: 1000
+    min-value: 1
