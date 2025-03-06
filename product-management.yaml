@@ -12,7 +12,3 @@ spring:
 server:
   port: 9091
 
-custom:
-  constant:
-    max-value: 1000
-    min-value: 1
