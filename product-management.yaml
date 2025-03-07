@@ -13,5 +13,5 @@ server:
   port: 9091
 custom:
   constant:
-    max-value: 500
+    max-value: 900
     min-value: 1
